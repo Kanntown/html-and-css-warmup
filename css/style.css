@@ -22,10 +22,10 @@ nav ul li {
 	padding: 5px;
 	width: 115px;
 	text-align: center;
-	background-color: black;
+  background-color: black;
 }
 nav ul li a {
-	color: white;
+  color: white;
 	text-decoration: none;
 	display: block;
 }
@@ -38,28 +38,36 @@ nav ul ul {
 	position: absolute;
 	left: -9999px;
 }
-nav ul li ul li {
-	white-space: nowrap;
-	width: 115px;
-	display: block;
-}
-nav ul li:hover ul {
-	left: 0;
-	padding-top: 5px;
-}
 
-footer {
-  display: inline-block;
-  text-align: center;
+#footer {
+/*  display: inline-block;
+  text-align: center; */
   position: relative;
+  display: block;
 }
-
-
 
 #form {
-  width: 500px;
+  width: 400px;
   float: center;
+  margin: 10px;
+  border-bottom: 1px, solid #efefef;
 /*  padding-top: 1em;
   padding-left: 10em; */
+}
+.title {
+  float: left;
+  width: 100px;
+  padding-right: 10px;
+}
+#form p {
 
+}
+
+#submit {
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+#submit:hover {
+  background-color: #00ccff;
 }
